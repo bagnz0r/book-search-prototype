@@ -1,0 +1,16 @@
+.Tabs {
+  width: 100%;
+  height: 100%;
+}
+
+.TabContent {
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 800px) {
+  .TabContent {
+    margin-top: 10px;
+    padding: 0;
+  }
+}
